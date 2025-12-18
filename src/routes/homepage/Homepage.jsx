@@ -23,21 +23,22 @@ const Homepage = () => {
                     </div>
                     <img src="/Dad.png" alt="" className="dad" />
                     <div className="chat">
-                        <img src="/bot.png" alt="" />
+                        <img src="/dad2.png" alt="" />
                         <TypeAnimation
                             sequence={[
                              // Same substring at the start will only be typed out once, initially
-                            'Dad: Move ya ass',
+                            'What de ass is this',
                              1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'Dad: Fool',
+                            'Good lord',
                              1000,
-                            'Dad: Sleep',
+                            'Aye be careful on dat road. Make sure to watch those side mirrors',
                              1000,
-                            'Dad: Eat',
+                            'Ya see it dee questions yah ASK',
                              1000
                             ]}
                             wrapper="span"
                             speed={50}
+                            cursor={true}
                             style={{ fontSize: '2em', display: 'inline-block' }}
                             repeat={Infinity}
                         />
