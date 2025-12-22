@@ -8,7 +8,7 @@ const Homepage = () => {
         <div className='homepage'>
             <img src="/orbital.png" alt="" className="orbital" />
             <div className="left">
-                <h1>DADGPT</h1>
+                <h1>DadGPT</h1>
                 <h2>Personalized chatbot that specializes in indian music and food!</h2>
                 <h3>Merry Christmas dad. This chatbot is your christmas gift because I made
                     it from scratch including the UI, authentication, and
