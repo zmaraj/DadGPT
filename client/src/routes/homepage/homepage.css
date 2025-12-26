@@ -3,7 +3,8 @@
     align-items: center;
     gap: 100px;
     height: 100%;
-
+    
+    
     @media screen and (max-width: 1024px) {
         flex-direction: column;
         gap: 0px;
@@ -21,7 +22,7 @@
     }
     h1{
         font-size: 128px;
-        background: linear-gradient(to right, #f6f6f6, rgb(54, 99, 214));
+        background: linear-gradient(to right, #f6f6f6, rgb(45, 95, 222));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -35,6 +36,7 @@
     h3{
         font-weight: 400;
         max-width: 70%;
+        color: #CACED9;
 
         @media screen and (max-wdith: 1024px) {
             max-width: 100%;
@@ -43,7 +45,7 @@
     }
     a{
         padding: 15px 25px;
-        background-color: rgb(5, 72, 187);
+        background-color: rgb(73, 129, 225);
         color: rgb(255, 255, 255);
         border-radius: 20px;
         font-size: 15px;
@@ -84,10 +86,10 @@
 
                 .bg{
                     background-image: url("/bg.png");
-                    opacity: 0.2;
+                    opacity: 0.3;
                     width: 200%;
                     height: 100%;
-                    background-size: auto 100%;
+                    background-size: auto 85%;
                     animation: 8s ease-in-out infinte alternate slideBg;
                 }
             }
@@ -134,10 +136,15 @@
 
     .orbital {
         position: absolute;
+        width: 100vw;
         bottom: 0;
         left: 0;
-        opacity: 0.05;
+        opacity: 0.5;
         z-index: -1;
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        
       }
 
 
