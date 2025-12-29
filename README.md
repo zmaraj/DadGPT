@@ -1,6 +1,6 @@
 # Dad GPT
 
-A full-stack web application project.
+DadGPT is a full-stack AI chat application that delivers advice and responses through a modern, responsive web interface. Built with a React frontend and a Node/Express backend, it integrates authentication, persistent chat history, and AI-powered conversations to create a playful yet functional chatbot experience.
 
 ## Project Structure
 
